@@ -1,20 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Train Scheduler</title>
 
+    <link rel="shortcut icon" type="image/png" href="assets/images/Train_Favicon.jpg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Boogaloo|Lato" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- jQuery-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- FireBase -->
-    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
+    <!-- Moment -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
 </head>
+
 <body>
-    
-    <script src="assets/javascript/javascript.js"></script>
+    <!-- HEADER -->
+    <header>
+        <h1>TIME TO FLY</h1>
+        <h2>TRAIN SCHEDULER</h2>
+    </header>
+
+    <!-- SECTION -->
+    <section id="current-section">
+        <div>
+            <h3>CURRENT TRAIN SCHEDULES</h3>
+        </div>
+        <div id="new-train-rows">
+                
+            
+            <div class="container" id="container-new-header">
+                        <div class="row">
+                            <div class="col-2 column-name">Train Name</div>
+                            <div class="col-2 column-name">Destination</div>
+                            <div class="col-2 column-name">Frequency(min)</div>
+                            <div class="col-2 column-name">Next Arrival</div>
+                            <div class="col-2 column-name">Minutes Away</div>
+                            <div class="col-2 column-name">Remove</div>
+                        </div>
+                    </div>
+        
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- SECTION -->
+    <section id="add-section">
+        <div>
+            <h3>ADD TRAIN</h3>
+        </div>
+        <div id="form-div">
+            <form>
+
+                    <p>Train Name:</p>
+                    <input id="name" value=""><br>
+                    <p>Destination:</p>
+                    <input id="destination" value=""><br>
+                    <p>First Train Time (HH:mm):</p>
+                    <input id="first-train" value=""><br>
+                    <p>Frequency (min):</p>
+                    <input id="frequency" value=""><br>
+
+            </form>
+        </div>
+        <button type="submit" form="form-div" value="sutbmit" id="submit">Submit:</button>
+    </section>
+
+    <!-- FOOTER -->
+    <!------------------------------------------
+        Footer 
+        ------------------------------------>
+    <footer>
+        <div class="footer-container">
+            <a href="https://github.com/guthriet1230"><img id="github" src="assets/images/Footer/GithubLogo.png"></a>
+            <a href="https://www.linkedin.com/in/tyler-guthrie-0a608857/"><img id="linkedin" src="assets/images/Footer/LinkedinLogo.jpg"></a>
+            <a href="mailto:guthriet1230@gmail.com"><img id="gmail" src="assets/images/Footer/GmailLogo.png"></a>
+        </div>
+    </footer>
+
+
 </body>
+<script src="assets/javascript/javascript.js"></script>
+
 </html>
