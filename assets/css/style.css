@@ -1,162 +1,161 @@
 body {
-    background: url(https://www.kinggoya.com/wp-content/uploads/2015/08/train-summer-med1.jpg)
-      no-repeat center center fixed;
-    background-size: cover;
-    font-family: "Lato", sans-serif;
-  }
-  
-  /* ---------------------------------
-  HEADER
-  --------------------------------- */
-  header {
-    background: rgb(97, 97, 97, 0.85);
-    text-align: center;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    color:white;
-  }
-  
-  header h1 {
-    font-size: 60px;
-    font-family: "Boogaloo", cursive;
-    font-weight: 600;
-  }
-  header h2 {
-    font-size: 30px;
-    font-family: "Boogaloo", cursive;
-    font-weight: 400;
-  }
-  
-  /* ---------------------------------
-  TRAIN SCHEDULE
-  --------------------------------- */
-  section#current-section h3 {
-    text-align: center;
-    background: rgb(97, 97, 97, 0.95);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px black solid;
-    color: white;
-    font-family: "Boogaloo", cursive;
-    margin-bottom:10px;
-  }
-  
-  section#current-section {
-    margin: 15px 15%;
-    margin-top: 30px;
-    min-height: 200px;
-    border-radius: 5px;
-    background: rgb(97, 97, 97, 0.85);
-    text-align:center;
-    color:rgb(184, 184, 184)
-  }
-  
-  section#current-section button{
-    font-size:13px;
-  }
-  
-  section .column-name{
-    color:white;
-    text-decoration: underline;
-    margin-bottom:5px;
-  }
-  
-  /* ---------------------------------
-  ADD TRAIN
-  --------------------------------- */
-  section#add-section h3 {
-    text-align: center;
-    background: rgb(97, 97, 97, 0.95);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px black solid;
-    color: white;
-    font-family: "Boogaloo", cursive;
-  }
-  
-  section#add-section {
-    margin: 15px 15%;
-    margin-bottom:100px;
-    min-height: 200px;
-    margin-top: 40px;
-    border-radius: 5px;
-    background: rgb(97, 97, 97, 0.85);
-  }
-  
-  form{
-    width: 100%;
-  }
-  
-  p{
-    margin-bottom:4px;
-    color:white;
-  }
-  
-  input{
-    margin-bottom:15px;
-    width:100%;
-  }
-  
-  section #form-div {
-    padding: 10px 5%;
-    display: flex;
-    flex-wrap: wrap;
-    width:100%;
-  }
-  
-  button{
-    margin-left:5%;
-    margin-bottom:15px;
-    background-color:rgb(0, 104, 168);
-    color:white;
-    border-radius:5px;
-    padding:5px;
-   
-  }
-  
-  /* ---------------------------------
-  FOOTER
-  --------------------------------- */
-  
-  footer {
-    background-color: rgb(48, 47, 41);
-    height: 70px;
-    /* position: fixed; */
-    width: 100%;
-    border-top: 3px rgb(0, 104, 168) solid;
-    bottom: 0;
-  }
-  
-  footer img {
-    width: 40px;
-    text-align: center;
-    margin: auto;
-    position: relative;
-  }
-  
-  .footer-container {
-    text-align: center;
-  }
-  
-  #github {
-    border-radius: 50%;
-    margin: 10px;
-  }
-  
-  #linkedin {
-    border-radius: 6%;
-    margin: 10px;
-    width: 35px;
-  }
-  
-  #gmail {
-    border-radius: 5%;
-    margin: 10px;
-    margin-bottom: 10px;
-    width: 35px;
-  }
-  
+  background: url(https://www.kinggoya.com/wp-content/uploads/2015/08/train-summer-med1.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Lato", sans-serif;
+}
+
+/* ---------------------------------
+HEADER
+--------------------------------- */
+header {
+  background: rgb(97, 97, 97, 0.85);
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color:white;
+}
+
+header h1 {
+  font-size: 60px;
+  font-family: "Boogaloo", cursive;
+  font-weight: 600;
+}
+header h2 {
+  font-size: 30px;
+  font-family: "Boogaloo", cursive;
+  font-weight: 400;
+}
+
+/* ---------------------------------
+TRAIN SCHEDULE
+--------------------------------- */
+section#current-section h3 {
+  text-align: center;
+  background: rgb(97, 97, 97, 0.95);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px black solid;
+  color: white;
+  font-family: "Boogaloo", cursive;
+  margin-bottom:10px;
+}
+
+section#current-section {
+  margin: 15px 15%;
+  margin-top: 30px;
+  min-height: 200px;
+  border-radius: 5px;
+  background: rgb(97, 97, 97, 0.85);
+  text-align:center;
+  color:rgb(184, 184, 184)
+}
+
+section#current-section button{
+  font-size:13px;
+}
+
+section .column-name{
+  color:white;
+  text-decoration: underline;
+  margin-bottom:5px;
+}
+
+/* ---------------------------------
+ADD TRAIN
+--------------------------------- */
+section#add-section h3 {
+  text-align: center;
+  background: rgb(97, 97, 97, 0.95);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px black solid;
+  color: white;
+  font-family: "Boogaloo", cursive;
+}
+
+section#add-section {
+  margin: 15px 15%;
+  margin-bottom:100px;
+  min-height: 200px;
+  margin-top: 40px;
+  border-radius: 5px;
+  background: rgb(97, 97, 97, 0.85);
+}
+
+form{
+  width: 100%;
+}
+
+p{
+  margin-bottom:4px;
+  color:white;
+}
+
+input{
+  margin-bottom:15px;
+  width:100%;
+}
+
+section #form-div {
+  padding: 10px 5%;
+  display: flex;
+  flex-wrap: wrap;
+  width:100%;
+}
+
+button{
+  margin-left:5%;
+  margin-bottom:15px;
+  background-color:rgb(0, 104, 168);
+  color:white;
+  border-radius:5px;
+  padding:5px;
+ 
+}
+
+/* ---------------------------------
+FOOTER
+--------------------------------- */
+
+footer {
+  background-color: rgb(48, 47, 41);
+  height: 70px;
+  /* position: fixed; */
+  width: 100%;
+  border-top: 3px rgb(0, 104, 168) solid;
+  bottom: 0;
+}
+
+footer img {
+  width: 40px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+}
+
+.footer-container {
+  text-align: center;
+}
+
+#github {
+  border-radius: 50%;
+  margin: 10px;
+}
+
+#linkedin {
+  border-radius: 6%;
+  margin: 10px;
+  width: 35px;
+}
+
+#gmail {
+  border-radius: 5%;
+  margin: 10px;
+  margin-bottom: 10px;
+  width: 35px;
+}
